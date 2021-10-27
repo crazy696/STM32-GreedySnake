@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\FWLib\inc -I..\MY\inc -I..\USER 
+-I D:\EXEOFFICEA\MSK4.7\AZDZ\ARM\RV31\INC 
+-I D:\EXEOFFICEA\MSK4.7\AZDZ\ARM\CMSIS\Include 
+-I D:\EXEOFFICEA\MSK4.7\AZDZ\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d" "main.c"
